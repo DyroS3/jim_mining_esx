@@ -2,20 +2,20 @@ Config.Locations = {
     ["Washing"] = {
         Enable = true,
         positions = {
-            { name = "Stone Washing", coords = vec3(1840.18, 412.42, 160.49), sprite = 467, col = 3, disp = 6, blipEnable = true }, -- Mountains
-            { name = "Stone Washing", coords = vec3(1870.91, 395.1, 160.16), sprite = 467, col = 3, disp = 6, blipEnable = false },
+            { name = "矿石刷洗处", coords = vec3(1840.18, 412.42, 160.49), sprite = 467, col = 3, disp = 6, blipEnable = true }, -- Mountains
+            { name = "矿石刷洗处", coords = vec3(1870.91, 395.1, 160.16), sprite = 467, col = 3, disp = 6, blipEnable = false },
 
-            { name = "Stone Washing", coords = vec3(-432.59, 2936.84, 13.87), sprite = 467, col = 3, disp = 6, blipEnable = true }, -- Stream Blip
-            { name = "Stone Washing", coords = vec3(-422.37, 2946.18, 13.77), sprite = 467, col = 3, blipEnable = false },
-            { name = "Stone Washing", coords = vec3(-443.21, 2926.5, 13.62), sprite = 467, col = 3, blipEnable = false },
-            { name = "Stone Washing", coords = vec3(-455.48, 2917.16, 13.52), sprite = 467, col = 3, blipEnable = false },
+            { name = "矿石刷洗处", coords = vec3(-432.59, 2936.84, 13.87), sprite = 467, col = 3, disp = 6, blipEnable = true }, -- Stream Blip
+            { name = "矿石刷洗处", coords = vec3(-422.37, 2946.18, 13.77), sprite = 467, col = 3, blipEnable = false },
+            { name = "矿石刷洗处", coords = vec3(-443.21, 2926.5, 13.62), sprite = 467, col = 3, blipEnable = false },
+            { name = "矿石刷洗处", coords = vec3(-455.48, 2917.16, 13.52), sprite = 467, col = 3, blipEnable = false },
 
-            { name = "Stone Washing", coords = vec3(2500.64, 6129.4, 162.46), sprite = 467, col = 3, disp = 6, blipEnable = true }, -- Gordo
+            { name = "矿石刷洗处", coords = vec3(2500.64, 6129.4, 162.46), sprite = 467, col = 3, disp = 6, blipEnable = true }, -- Gordo
 
-            { name = "Stone Washing", coords = vec3(907.06, 4377.66, 30.28), sprite = 467, col = 3, disp = 6, blipEnable = true }, -- Alamo Sea
-            { name = "Stone Washing", coords = vec3(894.14, 4386.56, 30.24), sprite = 467, col = 3, blipEnable = false },
-            { name = "Stone Washing", coords = vec3(893.12, 4370.74, 30.35), sprite = 467, col = 3, blipEnable = false },
-            { name = "Stone Washing", coords = vec3(912.88, 4365.7, 30.39), sprite = 467, col = 3, blipEnable = false },
+            { name = "矿石刷洗处", coords = vec3(907.06, 4377.66, 30.28), sprite = 467, col = 3, disp = 6, blipEnable = true }, -- Alamo Sea
+            { name = "矿石刷洗处", coords = vec3(894.14, 4386.56, 30.24), sprite = 467, col = 3, blipEnable = false },
+            { name = "矿石刷洗处", coords = vec3(893.12, 4370.74, 30.35), sprite = 467, col = 3, blipEnable = false },
+            { name = "矿石刷洗处", coords = vec3(912.88, 4365.7, 30.39), sprite = 467, col = 3, blipEnable = false },
         },
     },
     ["Panning"] = {
@@ -25,7 +25,7 @@ Config.Locations = {
                 Enable = true,
                 Blip = { -- The location where you enter the mine
                     Enable = true,
-                    name = "Gold Panning",
+                    name = "河流淘金处",
                     coords = vector3(-1410.58, 2005.91, 59.4),
                     sprite = 467, col = 5,
                 },
@@ -39,7 +39,7 @@ Config.Locations = {
                 Enable = true,
                 Blip = { -- The location where you enter the mine
                     Enable = true,
-                    name = "Gold Panning",
+                    name = "河流淘金处",
                     coords = vector3(-1550.06, 1445.13, 116.37),
                     sprite = 467, col = 5,
                 },
@@ -52,7 +52,7 @@ Config.Locations = {
                 Enable = true,
                 Blip = { -- The location where you enter the mine
                     Enable = true,
-                    name = "Gold Panning",
+                    name = "河流淘金处",
                     coords = vector3(-870.24, 4424.14, 15.37),
                     sprite = 467, col = 5,
                 },
@@ -68,18 +68,16 @@ Config.Locations = {
             { name = "Jewel Buyer", coords = vec4(-629.86, -240.35, 38.16, 110.05), sprite = 527, col = 617, blipTrue = false, model = `S_M_M_HighSec_03`, scenario = "WORLD_HUMAN_CLIPBOARD", },
         },
     },
-    ["Smelting"] = {
-        { name = "Foundary", coords = vec3(1112.29, -2009.9, 31.46), sprite = 436, col = 1, blipTrue = false, },
-    },
 
     ["Mines"] = {
         ["Foundary"] = {
             Enable = true,
             Blip = { -- The location where you enter the mine
                 Enable = true,
-                name = "Foundary",
+                name = "布罗铸造厂",
                 coords = vec4(1074.89, -1988.19, 30.89, 235.07),
-                sprite = 436, col = 1,
+                sprite = 436,
+                col = 1,
             },
             Lights = {
                 Enable = true,
@@ -89,21 +87,21 @@ Config.Locations = {
                 },
             },
             Store = {
-                { name = "Foundary Store", coords = vec4(1074.89, -1988.19, 30.89, 235.07), model = `G_M_M_ChemWork_01`, scenario = "WORLD_HUMAN_CLIPBOARD", },
+                { name = "布罗铸造厂直营商店", coords = vec4(1074.89, -1988.19, 30.89, 235.07), model = `G_M_M_ChemWork_01`, scenario = "WORLD_HUMAN_CLIPBOARD", },
             },
             Smelting = {
-                { blipEnable = true, name = "Foundary", coords = vec3(1112.29, -2009.9, 31.46), sprite = 436, col = 1,  },
+                { blipEnable = false, name = "布罗铸造厂熔炉", coords = vec3(1112.29, -2009.9, 31.46), sprite = 436, col = 1,  },
             },
             Cracking = {
-                { blipEnable = false, name = "Stone Cracking", coords = vec4(1109.19, -1992.8, 30.98, 146.88), sprite = 566, col = 81, prop = "prop_vertdrill_01" },
-                { blipEnable = false, name = "Stone Cracking", coords = vec4(1105.56, -1992.53, 30.94, 238.19), sprite = 566, col = 81, prop = "prop_vertdrill_01" },
+                { blipEnable = false, name = "切割矿石", coords = vec4(1109.19, -1992.8, 30.98, 146.88), sprite = 566, col = 81, prop = "prop_vertdrill_01" },
+                { blipEnable = false, name = "切割矿石", coords = vec4(1105.56, -1992.53, 30.94, 238.19), sprite = 566, col = 81, prop = "prop_vertdrill_01" },
             },
             OreBuyer = {
-                { blipEnable = false, name = "Ore Buyer", coords = vec4(1090.18, -1999.51, 30.93, 146.24), sprite = 568, col = 81, model = `G_M_M_ChemWork_01`, scenario = "WORLD_HUMAN_CLIPBOARD", },
+                { blipEnable = false, name = "布罗铸造厂矿石采购员", coords = vec4(1090.18, -1999.51, 30.93, 146.24), sprite = 568, col = 81, model = `G_M_M_ChemWork_01`, scenario = "WORLD_HUMAN_CLIPBOARD", },
             },
             JewelCut = {
-                { blipEnable = false, name = "Jewel Cutting", coords = vec4(1077.11, -1984.22, 31.02, 235.8), sprite = 566, col = 81, prop = `gr_prop_gr_speeddrill_01c` },
-                { blipEnable = false, name = "Jewel Cutting", coords = vec4(1075.19, -1985.45, 30.92, 144.89), sprite = 566, col = 81, prop = `gr_prop_gr_speeddrill_01c` },
+                { blipEnable = false, name = "切割宝石", coords = vec4(1077.11, -1984.22, 31.02, 235.8), sprite = 566, col = 81, prop = `gr_prop_gr_speeddrill_01c` },
+                { blipEnable = false, name = "切割宝石", coords = vec4(1075.19, -1985.45, 30.92, 144.89), sprite = 566, col = 81, prop = `gr_prop_gr_speeddrill_01c` },
             },
         },
         ["MineShaft"] = {
@@ -111,13 +109,13 @@ Config.Locations = {
             Job = nil,
             Blip = {
                 Enable = true,
-                name = "Mine Shaft",
+                name = "大灌丛矿井",
                 coords = vec4(-596.74, 2090.99, 131.41, 16.6),
                 sprite = 527,
                 col = 81,
             },
             Store = {
-                { name = "Mine", coords = vec4(-594.96, 2091.3, 131.47, 67.65), model = `G_M_M_ChemWork_01`, scenario = "WORLD_HUMAN_CLIPBOARD",  },
+                { name = "大灌丛矿井商店", coords = vec4(-594.96, 2091.3, 131.47, 67.65), model = `G_M_M_ChemWork_01`, scenario = "WORLD_HUMAN_CLIPBOARD",  },
             },
             Lights = {
                 Enable = true,
@@ -178,13 +176,13 @@ Config.Locations = {
             Job = nil,
             Blip = {
                 Enable = true,
-                name = "Quarry",
+                name = "戴维斯石英采石场",
                 coords = vec4(2960.9, 2754.14, 43.71, 204.58),
                 sprite = 527,
                 col = 81,
             },
             Store = {
-                { name = "Quarry", coords = vec4(2960.9, 2754.14, 43.71, 204.58), model = `G_M_M_ChemWork_01`, scenario = "WORLD_HUMAN_CLIPBOARD",  },
+                { name = "戴维斯石英采石场商店", coords = vec4(2960.9, 2754.14, 43.71, 204.58), model = `G_M_M_ChemWork_01`, scenario = "WORLD_HUMAN_CLIPBOARD",  },
             },
             Lights = {
                 Enable = true,
@@ -211,7 +209,7 @@ Config.Locations = {
             },
         },
         ["K4MB1"] = { -- K4MB1's Mineshaft in the quarry
-            Enable = true,
+            Enable = false,
             Job = nil,
             Blip = {
                 Enable = true,
@@ -276,15 +274,15 @@ Config.Locations = {
             },
         },
         --["NewLocation"] = {
-        --    Enable = false,
-        --    Job = nil,
-        --    Blip = { },
-        --    Store = { },
-        --    Smelting = { },
-        --    Cracking = { },
-        --    OreBuyer = { },
-        --    JewelCut = { },
-        --    OrePositions = {  },
+        --    Enable = false, -- 是否开启
+        --    Job = nil, -- 是否指定职业 {['police'] = 0, ['ambulance'] = 2}]}
+        --    Blip = { }, -- 添加Blip
+        --    Store = { }, -- 设置商店
+        --    Smelting = { }, -- 设置熔炉
+        --    Cracking = { }, -- 设置矿石切割机
+        --    OreBuyer = { }, -- 设置矿石买家
+        --    JewelCut = { }, -- 设置宝石切割机
+        --    OrePositions = {  }, -- 矿石位置
         --},
     },
 }
